@@ -1,13 +1,11 @@
 public class Guest implements Observer {
     private String name;
     private String email;
-    private String phoneNumber;
     private String eventName, eventDescription, eventLocation;
 
     public Guest(String name, String email, String phoneNumber) {
         this.name = name;
         this.email = email;
-        this.phoneNumber = phoneNumber;
     }
 
     public String getName() {
